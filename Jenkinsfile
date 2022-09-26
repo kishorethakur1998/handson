@@ -10,7 +10,7 @@ pipeline {
         
         ARTVERSION = "${env.BUILD_ID}"
         registry = "251219981642/vproappdocker"
-        registry.credential = "dockerhub"
+        registryCredential = "dockerhub"
     }
 
     stages{
